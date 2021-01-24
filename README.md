@@ -15,7 +15,13 @@ Install this plugin in the same environment as Datasette.
 
 ## Usage
 
-Usage instructions go here.
+    select base64decode(
+        "QmxhZGUgUnVubmVy"
+    )
+
+    select base64encode(
+        "Blade Runner"
+    )
 
 ## Development
 
